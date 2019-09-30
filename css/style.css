@@ -1,0 +1,272 @@
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+p {
+  color: #333;
+}
+
+body{
+  font-family: Lato;
+}
+
+h1{
+  font-family: Raleway;
+
+}
+.inner{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 auto;
+  width: 1100px;
+}
+
+/* ここからheader */
+
+.header{
+  background-color: #fff;
+  padding: 15px auto;
+  position: fixed;
+  top: 0px;                   /* 位置(上0px) */
+  left: 0px;                  /* 位置(右0px) */
+  width: 100%;                /* 横幅100%　*/
+}
+.header-inner{
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.header_icon{
+  color: #4e4e4e;
+  display: inline-block;
+  padding-left: 200px;
+}
+
+.title{
+  background-color: #f2f2f2;
+}
+
+.contact{
+  background-color: #74cfae;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin-right: 100px;
+  padding: 14px 12px;
+  cursor: pointer;
+}
+
+/* ここまでheader */
+/* ここからtheme */
+
+.theme{
+  background-color: #f2f2f2;
+}
+
+.theme-inner{
+  padding-top: 90px;
+  padding-bottom: 250px;
+}
+.theme_head{
+  color: #74cfae;
+  font-weight: 700;
+  font-size: 90px;
+  padding-bottom: 20px;
+  padding-top: 250px;
+  text-align: center;
+}
+
+.theme_text{
+  color: #c0c0c0;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* ここまでtheme */
+/* ここからable_to */
+
+.able_to{
+  background-color: #74cfae;
+}
+
+.able_to-inner{
+padding-top: 50px;
+height: 295px;
+}
+
+.pic_iphone{
+float: left;
+}
+
+.able_to_head{
+  color: #fff;
+  font-size: 24px;
+  margin-left: 30%;
+  margin-bottom: 35px;
+  text-align: center;
+
+}
+
+.able_to_text{
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 30%;
+  text-align: center;
+  width: 60%;
+}
+
+/* ここまでable_to */
+/* ここからOUR LAST WORK HEAD */
+
+.last_head{
+  background-color: #f2f2f2;
+}
+
+.last_head-inner{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.last_head{
+  color: #333;
+  font-size: 24px;
+}
+/* ここまでOUR LAST WORK HEAD */
+/* ここからOUR LAST WORK IMG */
+
+.flex_img{
+  background-color: #f2f2f2;
+}
+
+.flex_img_inner > img:nth-child(3n+2){
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* ここまでOUR LAST WORK IMG */
+/* ここからOUR LAST WORK TEXT */
+
+.last_work_text{
+  background-color: #f2f2f2;
+}
+
+.last_text_inner{
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.last_text{
+  color: #333;
+  font-size: 24px;
+  float: left;
+  width: 63%
+}
+
+.email{
+  background-color: #74cfae;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+/* ここまでOUR LAST WORK TEXT */
+/* ここからskill head */
+
+.skill_head{
+  background-color: #4e4e4e;
+  }
+
+  .skill_head_inner{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+.skill_head_text{
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+/* ここまでskill head */
+/* ここからskill */
+
+.skill{
+  background-color: #4e4e4e;
+}
+
+.skill_inner{
+padding-bottom: 100px;
+text-align: center;
+}
+
+.skill_detail{
+  font-size: 16px;
+  color: #fff;
+}
+
+.skill_inner > div{
+  display: inline-block;
+}
+
+.skill_inner > div{
+  padding-left: 180px;
+}
+
+.skill_inner > div:first-child{
+  padding-left: 0;
+}
+
+
+/* ここまでskill */
+/* ここからsns */
+
+.sns{
+  background-color: #f2f2f2;
+}
+
+.sns_inner{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.sns_icon{
+  color:#74cfae;
+  width: 185px;
+  transition:all 0.3s;
+  padding: 25px 0;
+}
+
+.sns_icon:hover{
+  background-color: #fff;
+}
+
+/* ここまでsns */
+/* ここからfooter */
+
+.footer{
+  background-color: #74cfae;
+}
+
+.footer-inner{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: right;
+}
+
+.copyright{
+  color: #fff;
+}
+
+/* ここまでfooter */
