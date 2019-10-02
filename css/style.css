@@ -18,9 +18,7 @@ h1{
 
 }
 .inner{
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 auto;
+  margin: 0 auto;
   width: 1100px;
 }
 
@@ -37,7 +35,6 @@ h1{
 .header-inner{
   padding-top: 15px;
   padding-bottom: 15px;
-
 }
 
 .header_icon{
@@ -46,9 +43,6 @@ h1{
   padding-left: 200px;
 }
 
-.title{
-  background-color: #f2f2f2;
-}
 
 .contact{
   background-color: #74cfae;
@@ -64,8 +58,13 @@ h1{
 /* ここまでheader */
 /* ここからtheme */
 
+.background{
+  min-width: 1100px;
+}
+
 .theme{
   background-color: #f2f2f2;
+  min-width: 1100px;
 }
 
 .theme-inner{
@@ -92,6 +91,7 @@ h1{
 
 .able_to{
   background-color: #74cfae;
+  min-width: 1100px;
 }
 
 .able_to-inner{
@@ -106,7 +106,7 @@ float: left;
 .able_to_head{
   color: #fff;
   font-size: 24px;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-bottom: 35px;
   text-align: center;
 
@@ -126,6 +126,7 @@ float: left;
 
 .last_head{
   background-color: #f2f2f2;
+  min-width: 1100px;
 }
 
 .last_head-inner{
@@ -143,6 +144,7 @@ float: left;
 
 .flex_img{
   background-color: #f2f2f2;
+  min-width: 1100px;
 }
 
 .flex_img_inner > img:nth-child(3n+2){
@@ -150,11 +152,26 @@ float: left;
   padding-right: 100px;
 }
 
+.flex_img_inner img{
+  margin-bottom: 80px;
+}
+.flex_img_inner > img:last-child{
+  margin-bottom: 0;
+}
+.flex_img_inner > img:nth-last-child(2){
+  margin-bottom: 0;
+}
+.flex_img_inner > img:nth-last-child(3){
+  margin-bottom: 0;
+}
+
+
 /* ここまでOUR LAST WORK IMG */
 /* ここからOUR LAST WORK TEXT */
 
 .last_work_text{
   background-color: #f2f2f2;
+  min-width: 1100px;
 }
 
 .last_text_inner{
@@ -184,6 +201,8 @@ float: left;
 
 .skill_head{
   background-color: #4e4e4e;
+  min-width: 1100px;
+
   }
 
   .skill_head_inner{
@@ -203,6 +222,8 @@ float: left;
 
 .skill{
   background-color: #4e4e4e;
+  min-width: 1100px;
+
 }
 
 .skill_inner{
@@ -233,6 +254,8 @@ text-align: center;
 
 .sns{
   background-color: #f2f2f2;
+  min-width: 1100px;
+
 }
 
 .sns_inner{
@@ -246,6 +269,7 @@ text-align: center;
   width: 185px;
   transition:all 0.3s;
   padding: 25px 0;
+  box-sizing:  content-box;
 }
 
 .sns_icon:hover{
@@ -257,6 +281,8 @@ text-align: center;
 
 .footer{
   background-color: #74cfae;
+  min-width: 1100px;
+
 }
 
 .footer-inner{
