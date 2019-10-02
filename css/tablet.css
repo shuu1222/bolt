@@ -19,7 +19,7 @@ h1{
 }
 .inner{
   margin: 0 auto;
-  width: 1100px;
+  width: 97%;
 }
 
 /* ここからheader */
@@ -66,12 +66,12 @@ h1{
 /* ここからtheme */
 
 .background{
-  min-width: 1100px;
+  min-width: 97%;
 }
 
 .theme{
   background-color: #f2f2f2;
-  min-width: 1100px;
+  min-width: 97%;
 }
 
 .theme-inner{
@@ -98,24 +98,23 @@ h1{
 
 .able_to{
   background-color: #74cfae;
-  min-width: 1100px;
+  min-width: 97%;
+  text-align: center;
 }
 
 .able_to-inner{
-padding-top: 50px;
-height: 295px;
+  text-align: center;
 }
 
 .pic_iphone{
-float: left;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .able_to_head{
   color: #fff;
   font-size: 24px;
-  margin-left: 20%;
   margin-bottom: 35px;
-  text-align: center;
 
 }
 
@@ -123,9 +122,8 @@ float: left;
   color: #fff;
   font-size: 20px;
   line-height: 25px;
-  margin-left: 30%;
-  text-align: center;
-  width: 60%;
+  padding-bottom: 25px;
+
 }
 
 /* ここまでable_to */
@@ -133,7 +131,7 @@ float: left;
 
 .last_head{
   background-color: #f2f2f2;
-  min-width: 1100px;
+  min-width: 97%;
 }
 
 .last_head-inner{
@@ -151,35 +149,26 @@ float: left;
 
 .flex_img{
   background-color: #f2f2f2;
-  min-width: 1100px;
+  min-width: 97%;
+  text-align: center;
 }
 
 .six_image{
-  float: left;
+  display: block;
   opacity: 0.7;
 }
-
+.six_image img{
+vertical-align: bottom;
+}
 .six_image:hover{
   opacity: 1;
   transition:all 0.3s;
 }
 
-.flex_img_inner > a:nth-child(3n+2){
-  padding-left: 100px;
-  padding-right: 100px;
-}
 
-.flex_img_inner a{
-  margin-bottom: 80px;
-}
-.flex_img_inner > a:last-child{
-  margin-bottom: 0;
-}
-.flex_img_inner > a:nth-last-child(2){
-  margin-bottom: 0;
-}
-.flex_img_inner > a:nth-last-child(3){
-  margin-bottom: 0;
+
+.flex_img_inner > a:nth-child(3n){
+  padding-bottom: 80px;
 }
 
 
@@ -188,31 +177,29 @@ float: left;
 
 .last_work_text{
   background-color: #f2f2f2;
-  min-width: 1100px;
+  min-width: 97%;
   text-align: center;
 }
 
 .last_text_inner{
-  padding-top: 90px;
+
   padding-bottom: 70px;
 }
 
 .last_text{
   color: #333;
   font-size: 24px;
-  float: left;
-  width: 63%;
-  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 .email{
+  display: inline-block;
   background-color: #74cfae;
   color: #fff;
-  float: left;
   font-size: 12px;
   padding: 14px 20px;
   cursor: pointer;
-  margin-left: 90px;
+  box-sizing:  content-box;
 }
 
 .email:hover{
@@ -225,33 +212,25 @@ float: left;
 
 .skill_head{
   background-color: #4e4e4e;
-  min-width: 1100px;
+  min-width: 97%;
 
   }
 
   .skill_head_inner{
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
   }
 
 .skill_head_text{
   color: #fff;
   font-size: 24px;
-  padding-bottom: 35px;
   text-align: center;
 }
 
 /* ここまでskill head */
 /* ここからskill */
 
-.skill{
-  background-color: #4e4e4e;
-  min-width: 1100px;
-
-}
-
 .skill_inner{
-padding-bottom: 100px;
 text-align: center;
 }
 
@@ -261,16 +240,13 @@ text-align: center;
 }
 
 .skill_inner > div{
-  display: inline-block;
 }
 
 .skill_inner > div{
-  padding-left: 180px;
+padding-bottom: 80px;
 }
 
-.skill_inner > div:first-child{
-  padding-left: 0;
-}
+
 
 
 /* ここまでskill */
@@ -278,7 +254,7 @@ text-align: center;
 
 .sns{
   background-color: #f2f2f2;
-  min-width: 1100px;
+  min-width: 97%;
 
 }
 
@@ -304,7 +280,7 @@ text-align: center;
 
 .footer{
   background-color: #74cfae;
-  min-width: 1100px;
+  min-width: 97%;
 
 }
 
