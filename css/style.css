@@ -16,20 +16,19 @@ h1 {
   font-family: Raleway;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .inner {
-      margin: 0 auto;
-      width: 1100px;
+    margin: 0 auto;
+    width: 1100px;
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .inner {
-      margin: 0 auto;
-      width: 97%;
+    margin: 0 auto;
+    width: 97%;
   }
 }
-
 
 /* ここからheader */
 
@@ -70,19 +69,17 @@ h1 {
   transition: all 0.5s;
 }
 
-
 /* ここまでheader */
-
 
 /* ここからtheme */
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .background {
     min-width: 1100px;
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .background {
     min-width: 97%;
   }
@@ -113,9 +110,7 @@ h1 {
   text-align: center;
 }
 
-
 /* ここまでtheme */
-
 
 /* ここからable_to */
 
@@ -124,33 +119,30 @@ h1 {
   min-width: 1100px;
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .able_to {
     text-align: center;
-    min-width: 97%;
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .able_to-inner {
     padding-top: 50px;
     height: 295px;
   }
 }
 
-
-
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .able_to-inner {
     text-align: center;
   }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .pic_iphone {
     float: left;
   }
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .pic_iphone {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -162,10 +154,10 @@ h1 {
   font-size: 24px;
   margin-bottom: 35px;
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .able_to_head {
-  margin-left: 20%;
-  text-align: center;
+    margin-left: 20%;
+    text-align: center;
   }
 }
 
@@ -174,69 +166,60 @@ h1 {
   font-size: 20px;
   line-height: 25px;
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .able_to_text {
     margin-left: 30%;
     text-align: center;
     width: 60%;
   }
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .able_to_text {
     padding-bottom: 25px;
   }
 }
 /* ここまでable_to */
 
-/* ここからOUR LAST WORK HEAD */
-.last_head {
+/* ここからOUR latest WORK HEAD */
+.latest_head {
   background-color: #f2f2f2;
   min-width: 1100px;
 }
-@media screen and (max-width:1199px) {
-  .last_head {
-    min-width: 97%;
-    }
-}
 
-.last_head-inner {
+
+.latest_head-inner {
   padding-top: 60px;
   padding-bottom: 40px;
-  text-align: center;
 }
-.last_head {
+
+.latest_head {
   color: #333;
   font-size: 24px;
 }
+/* ここまでOUR latest WORK HEAD */
+/* ここからOUR latest WORK IMG */
 
-/* ここまでOUR LAST WORK HEAD */
-
-/* ここからOUR LAST WORK IMG */
 .flex_img {
   background-color: #f2f2f2;
   min-width: 1100px;
 }
-@media screen and (max-width:1199px) {
-  .flex_img {
-    text-align: center;
-    }
+@media screen and (max-width: 1199px) {
+  .latest_head {
+  text-align: center;
+  }
 }
-
-.six_img {
+.six_image {
   opacity: 0.7;
 }
-@media screen and (min-width:1200px) {
-  .six_img{
+
+@media screen and (min-width: 1200px) {
+  .six_image {
     float: left;
   }
 }
-
-@media screen and (max-width:1199px) {
-  .six_img{
+@media screen and (max-width: 1199px) {
+  .six_image {
     display: block;
-  }
-  .sic_img img{
-    vertical-align: bottom;
   }
 }
 
@@ -245,42 +228,59 @@ h1 {
   opacity: 1;
   transition: all 0.3s;
 }
-.flex_img_inner>a:nth-child(3n+2) {
-  margin-left: 100px;
-  margin-right: 100px;
+
+@media screen and (min-width: 1200px) {
+  .flex_img_inner > a:nth-child(3n + 3) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .flex_img_inner a {
+    margin-bottom: 80px;
+  }
+  .flex_img_inner > a:latest-child {
+    margin-bottom: 0;
+  }
+  .flex_img_inner > a:nth-latest-child(2) {
+    margin-bottom: 0;
+  }
+  .flex_img_inner > a:nth-latest-child(3) {
+    margin-bottom: 0;
+  }
 }
-.flex_img_inner a {
-  margin-bottom: 80px;
+@media screen and (max-width: 1199px) {
+  .flex_img_inner > a:nth-latest-child(3n+3) {
+    padding-bottom: 80px;
+  }
 }
-.flex_img_inner>a:last-child {
-  margin-bottom: 0;
-}
-.flex_img_inner>a:nth-last-child(2) {
-  margin-bottom: 0;
-}
-.flex_img_inner>a:nth-last-child(3) {
-  margin-bottom: 0;
+@media screen and (max-width: 1199px) {
+  .flex_img_inner {
+    text-align: center;
+  }
 }
 
-/* ここまでOUR LAST WORK IMG */
+/* ここまでOUR latest WORK IMG */
+/* ここからOUR latest WORK TEXT */
 
-/* ここからOUR LAST WORK TEXT */
-.last_work_text {
+.latest_work_text {
   background-color: #f2f2f2;
   min-width: 1100px;
   text-align: center;
 }
-.last_text_inner {
+
+.latest_text_inner {
   padding-top: 90px;
   padding-bottom: 70px;
 }
-.last_text {
+
+.latest_text {
   color: #333;
   font-size: 24px;
   float: left;
   width: 63%;
   margin-left: 40px;
 }
+
 .email {
   background-color: #74cfae;
   color: #fff;
@@ -290,22 +290,25 @@ h1 {
   cursor: pointer;
   margin-left: 90px;
 }
+
 .email:hover {
   color: #333;
   transition: all 0.5s;
 }
 
-/* ここまでOUR LAST WORK TEXT */
-
+/* ここまでOUR latest WORK TEXT */
 /* ここからskill head */
+
 .skill_head {
   background-color: #4e4e4e;
   min-width: 1100px;
 }
+
 .skill_head_inner {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .skill_head_text {
   color: #fff;
   font-size: 24px;
@@ -314,64 +317,74 @@ h1 {
 }
 
 /* ここまでskill head */
-
 /* ここからskill */
+
 .skill {
   background-color: #4e4e4e;
   min-width: 1100px;
 }
+
 .skill_inner {
   padding-bottom: 100px;
   text-align: center;
 }
+
 .skill_detail {
   font-size: 16px;
   color: #fff;
 }
-.skill_inner>div {
+
+.skill_inner > div {
   display: inline-block;
 }
-.skill_inner>div {
+
+.skill_inner > div {
   margin-left: 180px;
 }
-.skill_inner>div:first-child {
+
+.skill_inner > div:first-child {
   margin-left: 0;
 }
 
 /* ここまでskill */
-
 /* ここからsns */
+
 .sns {
   background-color: #f2f2f2;
   min-width: 1100px;
 }
+
 .sns_inner {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
+
 .sns_icon i {
   color: #74cfae;
   width: 185px;
   transition: all 0.3s;
   padding: 25px 0;
 }
+
 .sns_icon i:hover {
   background-color: #fff;
 }
 
 /* ここまでsns */
-
 /* ここからfooter */
+
 .footer {
   background-color: #74cfae;
   min-width: 1100px;
 }
+
 .footer-inner {
   padding-top: 20px;
   padding-bottom: 25px;
   text-align: right;
 }
+
 .copyright {
   color: #fff;
 }
