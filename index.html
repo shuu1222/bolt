@@ -12,9 +12,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/base.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <!-- <link href="css/sp.css" rel="stylesheet" type="text/css" media="(max-width: 767px)" >
-    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="(min-width: 768px) and (max-width: 1199px)" >
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="(min-width: 1200px)" > -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -23,58 +20,58 @@
 
   <!-- ここからheader -->
   <header class="header">
-    <div class="inner header-inner ">
+    <div class="inner header-inner clearfix">
       <a href="" class="header_icon"><i class="fas fa-bolt fa-3x"></i></a>
-      <a href="" class="contact">Contact</a>
-    </div>
+      <a class="sp_menu"><i class="fas fa-bars fa-2x"></i></a>
+      <a href="" class="contact pc_menu">Contact</a>
   </header>
 
 
   <!-- ここからtheme -->
-  <main>
+  <main class="main">
+    <!--class"main"⇒padding top 84pxはheader分の余白 -->
     <div class="theme">
       <div class="inner theme-inner">
-        <h1 class="theme_head">Bolt Theme</h1>
+        <h1 class="h_font theme_head">Bolt Theme</h1>
         <p class="theme_text">FREE BOOTSTRAP THEMES</p>
       </div>
     </div>
 
     <!-- ここからable_to -->
     <section class="able_to">
-      <div class="inner able_to-inner clearfix">
+      <div class=" inner able_to-inner">
+
         <img src="img/iphone.png" alt="" class="pic_iphone">
-        <h1 class="able_to_head">WHAT WE CAN DO?</h1>
-        <p class="able_to_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-          type and scrambled it to make a type specimen
-          book.</p>
+
+        <div class="able_text_wrap">
+          <h2 class="h_font able_to_head">WHAT WE CAN DO?</h2>
+          <p class="able_to_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen
+            book.</p>
+        </div>
       </div>
     </section>
 
     <!--  ここからOUR latest WORK HEAD  -->
-    <a href=""rticle>
-
-      <div class="latest_head">
-        <div class="inner latest_head-inner">
-          <h1 class="latest_head">OUR LATEST WORK</h1>
+    <article class="article">
+      <div class="inner">
+          <div class="inner latest_head-inner">
+            <h2 class="h_font latest_head_text">OUR LATEST WORK</h2>
         </div>
-      </div>
 
-      <!-- ここからOUR latest WORK(IMG) -->
-      <div class="flex_img clearfix">
-        <div class="inner flex_img_inner">
-          <a href="" class="six_image"><img src="img/01.jpg"></a>
-          <a href="" class="six_image"><img src="img/02.jpg"></a>
-          <a href="" class="six_image"><img src="img/03.jpg"></a>
-          <a href="" class="six_image"><img src="img/04.jpg"></a>
-          <a href="" class="six_image"><img src="img/05.jpg"></a>
-          <a href="" class="six_image"><img src="img/06.jpg"></a>
+        <!-- ここからOUR latest WORK(IMG) -->
+        <div class="clearfix">
+            <a href="" class="work_image"><img src="img/01.jpg"></a>
+            <a href="" class="work_image"><img src="img/02.jpg"></a>
+            <a href="" class="work_image"><img src="img/03.jpg"></a>
+            <a href="" class="work_image"><img src="img/04.jpg"></a>
+            <a href="" class="work_image"><img src="img/05.jpg"></a>
+            <a href="" class="work_image"><img src="img/06.jpg"></a>
         </div>
-      </div>
 
-      <!-- ここからOUR latest WORK TEXT -->
-      <div class="latest_work_text">
-        <div class="inner latest_text_inner clearfix">
+        <!-- ここからOUR latest WORK TEXT -->
+        <div class="latest_text_inner clearfix">
           <p class="latest_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever.</p>
           <a href="" class="email">Email Me!</a>
@@ -82,49 +79,46 @@
       </div>
     </article>
 
-
+    </article>
     <!-- ここからskill head -->
-    <section class="our skill_tos">
-      <div class="skill_head">
-        <div class="inner skill_head_inner">
-          <h1 class="skill_head_text">OUR SKILLS</h1>
-        </div>
+    <section class="skill">
+      <div class="inner skill_head_inner">
+          <h2 class="h_font skill_head_text">OUR SKILLS</h2>
 
 
         <!-- ここからskill -->
-        <div class="skill">
-          <div class="inner skill_inner">
-            <!---->
-            <div class="skill_image"><img src="img/circle_01.png">
-              <p class="skill_detail">JavaScript</p>
-            </div>
-            <!--
-    -->
-            <div class="skill_image"><img src="img/circle_02.png">
-              <p class="skill_detail">Bootstrap</p>
-            </div>
-            <!--
-    -->
-            <div class="skill_image"><img src="img/circle_03.png">
-              <p class="skill_detail">WordPress</p>
-            </div>
-            <!--
-    -->
-            <div class="skill_image"><img src="img/circle_04.png">
-              <p class="skill_detail">Photoshop</p>
-            </div>
-            <!--
-    -->
+        <div class="skill_inner">
+          <!---->
+          <div class="skill_image"><img src="img/circle_01.png">
+            <p class="skill_detail">JavaScript</p>
           </div>
+          <!--
+    -->
+          <div class="skill_image"><img src="img/circle_02.png">
+            <p class="skill_detail">Bootstrap</p>
+          </div>
+          <!--
+    -->
+          <div class="skill_image"><img src="img/circle_03.png">
+            <p class="skill_detail">WordPress</p>
+          </div>
+          <!--
+    -->
+          <div class="skill_image"><img src="img/circle_04.png">
+            <p class="skill_detail">Photoshop</p>
+          </div>
+          <!--
+    -->
         </div>
+      </div>
     </section>
     <!-- ↑画面を小さくするとskillの画像がずれる -->
     </div>
     <!-- ここからSNS -->
-    <nav class="sns">
+    <nav class="sns  ">
       <div class="inner sns_inner">
         <a href="" class="sns_icon"><i class="fab fa-facebook-f fa-3x"></i></a>
-        <a href="" class="sns_icon"><i class="fas fa-basketball-ball fa-3x"></i></a>
+        <a href="" class="sns_icon"><i class="fab fa-dribbble fa-3x"></i></a>
         <a href="" class="sns_icon"><i class="fab fa-twitter fa-3x"></i></a>
         <a href="" class="sns_icon"><i class="fas fa-envelope fa-3x"></i></a>
       </div>
@@ -132,7 +126,7 @@
   </main>
 
   <!-- ここからfooter -->
-  <footer class="footer">
+  <footer class="footer ">
     <div class="inner footer-inner">
       <p class="copyright">Crafted with♥by Black Tie.co. </p>
     </div>
